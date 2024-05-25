@@ -1,0 +1,23 @@
+ChangeLog
+
+v 1.1 - 22 may 2018 - by Olivier Michel (olivier.michel@computingnews.net)
+
+- Add new hash algorithms : SHA3-224, SHA3-256, SHA3-384, SHA3-512
+- Speed improvement
+- Misc UI change
+- Add new button compare (to avoid to recompute hash for every comparison)
+- Same hash result on any architecture (32 or 64 bits) and any platform (Linux,
+Windows, Mac OS X).
+- Tests:
+    - 64 bits binary on Win 10 64 bits : status OK
+    - 64 bits binary on Redhat Enterprise 7.4 64 bits : status OK
+    - 64 bits binary on Mac OS X Sierra (10.12) 64 bits : status OK
+    - Need at least a display of 1200 * 1024
+    - Can compute file up to 64 GB (need huge quantity of ram (min 16GB)). Not tested beyond.
+
+v 1.0 - 16 may 2018 - by Olivier Michel (olivier.michel@computingnews.net)
+
+- Initial release
+- Fast hash calcultor with GUI
+- Support for MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512
+
