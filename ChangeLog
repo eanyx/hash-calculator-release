@@ -1,6 +1,6 @@
 ChangeLog
 
-v 1.1 - 22 may 2018 - by Olivier Michel (olivier.michel@computingnews.net)
+v 0.1 - 22 may 2018 - by eanyx (olivier.michel.92@gmail.com)
 
 - Add new hash algorithms : SHA3-224, SHA3-256, SHA3-384, SHA3-512
 - Speed improvement
@@ -15,9 +15,11 @@ Windows, Mac OS X).
     - Need at least a display of 1200 * 1024
     - Can compute file up to 64 GB (need huge quantity of ram (min 16GB)). Not tested beyond.
 
-v 1.0 - 16 may 2018 - by Olivier Michel (olivier.michel@computingnews.net)
+v 0.2 - 16 may 2018 - by eanyx (olivier.michel.92@gmail.com)
 
-- Initial release
 - Fast hash calcultor with GUI
 - Support for MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512
 
+V 1.0 - 25 may 2024 - by  eanyx (olivier.michel.92@gmail.com)
+
+- Initial official release
