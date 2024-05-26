@@ -133,7 +133,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1231, 17));
+        menuBar->setGeometry(QRect(0, 0, 1231, 23));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -149,7 +149,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Hash Calculator v 1.1 - september 2019 - By Olivier Michel (olivier.michel@computingnews.net)", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Hash Calculator v 1.0  - may 2024 - By eanyx (olivier.michel.92@gmail.com)", nullptr));
         filePushButton->setText(QCoreApplication::translate("MainWindow", "Choose a file to hash", nullptr));
         hashPushButton->setText(QCoreApplication::translate("MainWindow", "Compute hash", nullptr));
         rmd5RadioButton->setText(QCoreApplication::translate("MainWindow", "MD5", nullptr));

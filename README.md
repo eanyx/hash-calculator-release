@@ -2,7 +2,7 @@
 
 By eanyx (olivier.michel.92@gmail.com)
 
-First release - 25 may 2024
+V 1.0 - First release - 25 may 2024
 
 Quick hash calculator with gui written in C++/Qt5
 
