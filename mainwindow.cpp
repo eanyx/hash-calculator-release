@@ -6,8 +6,10 @@
 #include <QProgressBar>
 #include <QtMath>
 
-/* Olivier Michel - 9 may 2023 - change to support full file name on Linux and Windows
- *
+/* eanyx (olivier.michel.92@gmail.com) - 9 may 2023 - change to support full file name on Linux and Windows
+ * eanyx (olivier.michel.92@gmail.com) - V 1.0 - 25 may 2023 - Official release
+ * eanyx (olivier.michel.92@gmail.com) - v 1.1 - may 2024 - Add md4 algo
+ * note : crc32 algo not yet implemented although radiobutton is present
  */
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -103,6 +105,15 @@ void MainWindow::on_cancelButton_clicked()
     cancel_calculation = true;
 }
 
+
+//void MainWindow::on_
+
+void MainWindow::on_md4radioButton_clicked()
+{
+    algo = QCryptographicHash::Md4;
+}
+
+
 void MainWindow::on_rmd5RadioButton_clicked()
 {
     algo = QCryptographicHash::Md5;
@@ -175,6 +186,7 @@ void MainWindow::on_comparePushButton_clicked()
         this->ui->verifyLabel->show();
     }
 }
+
 
 
 

@@ -50,6 +50,8 @@ public:
     QRadioButton *SHA3_256RadioButton;
     QRadioButton *SHA_384RadioButton;
     QRadioButton *SHA3_512RadioButton;
+    QRadioButton *crc32radioButton;
+    QRadioButton *md4radioButton;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -58,7 +60,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1231, 470);
+        MainWindow->resize(1231, 534);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         fileLineEdit = new QLineEdit(centralWidget);
@@ -75,20 +77,20 @@ public:
         hashResultLineEdit->setGeometry(QRect(20, 80, 1201, 25));
         rmd5RadioButton = new QRadioButton(centralWidget);
         rmd5RadioButton->setObjectName(QString::fromUtf8("rmd5RadioButton"));
-        rmd5RadioButton->setGeometry(QRect(20, 246, 112, 23));
+        rmd5RadioButton->setGeometry(QRect(24, 291, 58, 24));
         rmd5RadioButton->setChecked(true);
         sha1RadioButton_2 = new QRadioButton(centralWidget);
         sha1RadioButton_2->setObjectName(QString::fromUtf8("sha1RadioButton_2"));
-        sha1RadioButton_2->setGeometry(QRect(20, 271, 112, 23));
+        sha1RadioButton_2->setGeometry(QRect(24, 321, 66, 24));
         sha224RadioButton_3 = new QRadioButton(centralWidget);
         sha224RadioButton_3->setObjectName(QString::fromUtf8("sha224RadioButton_3"));
-        sha224RadioButton_3->setGeometry(QRect(20, 296, 112, 23));
+        sha224RadioButton_3->setGeometry(QRect(24, 351, 83, 24));
         sha256RadioButton_4 = new QRadioButton(centralWidget);
         sha256RadioButton_4->setObjectName(QString::fromUtf8("sha256RadioButton_4"));
-        sha256RadioButton_4->setGeometry(QRect(20, 320, 112, 23));
+        sha256RadioButton_4->setGeometry(QRect(24, 381, 83, 24));
         sha512RadioButton_5 = new QRadioButton(centralWidget);
         sha512RadioButton_5->setObjectName(QString::fromUtf8("sha512RadioButton_5"));
-        sha512RadioButton_5->setGeometry(QRect(20, 369, 112, 23));
+        sha512RadioButton_5->setGeometry(QRect(24, 441, 83, 24));
         progressBar = new QProgressBar(centralWidget);
         progressBar->setObjectName(QString::fromUtf8("progressBar"));
         progressBar->setGeometry(QRect(21, 190, 1071, 25));
@@ -114,22 +116,28 @@ public:
         verifyLabel->setGeometry(QRect(20, 170, 91, 17));
         sha384RadioButton = new QRadioButton(centralWidget);
         sha384RadioButton->setObjectName(QString::fromUtf8("sha384RadioButton"));
-        sha384RadioButton->setGeometry(QRect(20, 344, 112, 23));
+        sha384RadioButton->setGeometry(QRect(24, 411, 83, 24));
         comparePushButton = new QPushButton(centralWidget);
         comparePushButton->setObjectName(QString::fromUtf8("comparePushButton"));
         comparePushButton->setGeometry(QRect(1080, 30, 111, 25));
         sha3_224RadioButton = new QRadioButton(centralWidget);
         sha3_224RadioButton->setObjectName(QString::fromUtf8("sha3_224RadioButton"));
-        sha3_224RadioButton->setGeometry(QRect(130, 300, 101, 20));
+        sha3_224RadioButton->setGeometry(QRect(132, 349, 92, 24));
         SHA3_256RadioButton = new QRadioButton(centralWidget);
         SHA3_256RadioButton->setObjectName(QString::fromUtf8("SHA3_256RadioButton"));
-        SHA3_256RadioButton->setGeometry(QRect(130, 322, 101, 20));
+        SHA3_256RadioButton->setGeometry(QRect(132, 379, 92, 24));
         SHA_384RadioButton = new QRadioButton(centralWidget);
         SHA_384RadioButton->setObjectName(QString::fromUtf8("SHA_384RadioButton"));
-        SHA_384RadioButton->setGeometry(QRect(130, 346, 101, 20));
+        SHA_384RadioButton->setGeometry(QRect(132, 409, 92, 24));
         SHA3_512RadioButton = new QRadioButton(centralWidget);
         SHA3_512RadioButton->setObjectName(QString::fromUtf8("SHA3_512RadioButton"));
-        SHA3_512RadioButton->setGeometry(QRect(130, 370, 101, 20));
+        SHA3_512RadioButton->setGeometry(QRect(132, 439, 92, 24));
+        crc32radioButton = new QRadioButton(centralWidget);
+        crc32radioButton->setObjectName(QString::fromUtf8("crc32radioButton"));
+        crc32radioButton->setGeometry(QRect(24, 231, 70, 24));
+        md4radioButton = new QRadioButton(centralWidget);
+        md4radioButton->setObjectName(QString::fromUtf8("md4radioButton"));
+        md4radioButton->setGeometry(QRect(24, 261, 58, 24));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -168,6 +176,8 @@ public:
         SHA3_256RadioButton->setText(QCoreApplication::translate("MainWindow", "SHA3-256", nullptr));
         SHA_384RadioButton->setText(QCoreApplication::translate("MainWindow", "SHA3-384", nullptr));
         SHA3_512RadioButton->setText(QCoreApplication::translate("MainWindow", "SHA3-512", nullptr));
+        crc32radioButton->setText(QCoreApplication::translate("MainWindow", "CRC32", nullptr));
+        md4radioButton->setText(QCoreApplication::translate("MainWindow", "MD4", nullptr));
     } // retranslateUi
 
 };

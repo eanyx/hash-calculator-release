@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1231</width>
-    <height>470</height>
+    <height>534</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,10 +63,10 @@
    <widget class="QRadioButton" name="rmd5RadioButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>246</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>291</y>
+      <width>58</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -79,10 +79,10 @@
    <widget class="QRadioButton" name="sha1RadioButton_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>271</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>321</y>
+      <width>66</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -92,10 +92,10 @@
    <widget class="QRadioButton" name="sha224RadioButton_3">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>296</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>351</y>
+      <width>83</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -105,10 +105,10 @@
    <widget class="QRadioButton" name="sha256RadioButton_4">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>320</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>381</y>
+      <width>83</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -118,10 +118,10 @@
    <widget class="QRadioButton" name="sha512RadioButton_5">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>369</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>441</y>
+      <width>83</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -225,10 +225,10 @@
    <widget class="QRadioButton" name="sha384RadioButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>344</y>
-      <width>112</width>
-      <height>23</height>
+      <x>24</x>
+      <y>411</y>
+      <width>83</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -251,10 +251,10 @@
    <widget class="QRadioButton" name="sha3_224RadioButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>300</y>
-      <width>101</width>
-      <height>20</height>
+      <x>132</x>
+      <y>349</y>
+      <width>92</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -264,10 +264,10 @@
    <widget class="QRadioButton" name="SHA3_256RadioButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>322</y>
-      <width>101</width>
-      <height>20</height>
+      <x>132</x>
+      <y>379</y>
+      <width>92</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -277,10 +277,10 @@
    <widget class="QRadioButton" name="SHA_384RadioButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>346</y>
-      <width>101</width>
-      <height>20</height>
+      <x>132</x>
+      <y>409</y>
+      <width>92</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
@@ -290,14 +290,40 @@
    <widget class="QRadioButton" name="SHA3_512RadioButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>370</y>
-      <width>101</width>
-      <height>20</height>
+      <x>132</x>
+      <y>439</y>
+      <width>92</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
      <string>SHA3-512</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="crc32radioButton">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>231</y>
+      <width>70</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CRC32</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="md4radioButton">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>261</y>
+      <width>58</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MD4</string>
     </property>
    </widget>
   </widget>

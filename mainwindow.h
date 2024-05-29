@@ -44,6 +44,8 @@ private slots:
 
     void on_SHA3_512RadioButton_clicked();
 
+    void on_md4radioButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
