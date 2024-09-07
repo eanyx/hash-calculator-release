@@ -7,7 +7,7 @@
 #include <QtMath>
 
 /* Olivier Michel - 9 may 2023 - change to support full file name on Linux and Windows
- *
+ * Olivier MICHEL - 7 sept 2024 - Remove computation on empty file
  */
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -50,7 +50,9 @@ void MainWindow::on_hashPushButton_clicked()
 {
      if (QFileInfo::exists(fileName));
      {
-        QFile file(fileName);
+         if (fileName != "")
+        {
+         QFile file(fileName);
         file.open(QIODevice::ReadOnly);
 
         const int block_size = (file.size() > 512*1024) ? 512*1024 : 1024;
@@ -94,7 +96,7 @@ void MainWindow::on_hashPushButton_clicked()
         this->ui->progressBar->hide();
         this->ui->cancelButton->hide();
         file.close();
-
+        }
      }
 }
 
