@@ -27,7 +27,10 @@ For Windows:
 	
 	Qt 6.4.2 IDE
 	MingGW 12 (64 bits)
-	note: shall work with Visual Studio (not tested)
+
+
+	QT 6.4.2 IDE
+	MS Visual Studio 19 (64 bits)
 
 Manual Build:
 
