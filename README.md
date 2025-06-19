@@ -15,21 +15,21 @@ Need:
 
 For Linux:
 	
-	Qt 6.4.2 IDE
+	Qt 5.15 IDE
 	gcc/g++ compilers (64 bits)
 
 For Mac OS X:
 	
-	Qt 6.4.2 IDE
+	Qt 5.15 IDE
 	X Code compiler (clang 64 bits)
 
 For Windows:
 	
-	Qt 6.4.2 IDE
+	Qt 5.15 IDE
 	MingGW 12 (64 bits)
 
 
-	QT 6.4.2 IDE
+	QT 5.15 IDE
 	MS Visual Studio 19 (64 bits)
 
 Manual Build:
