@@ -1,6 +1,6 @@
 ## Hash calculator
 
-By eanyx (olivier.michel.92@gmail.com)
+By eanyx (eanyx123@gmail.com)
 
 V 1.0 - First release - 25 may 2024
 
