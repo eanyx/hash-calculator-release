@@ -8,7 +8,7 @@
  *
  */
 
-/* By Olivier MICHEL
+/* By eanyx 
  * 16 may 2022 - v 1.0 - Initial version
  * 	       - corrections for Qt6
  */

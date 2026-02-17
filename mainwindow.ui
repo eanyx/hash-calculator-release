@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Hash Calculator v 1.0  - may 2024 - By eanyx (olivier.michel.92@gmail.com)</string>
+   <string>Hash Calculator v 1.0  - may 2024 - By eanyx (eanyx123@gmail.com)</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLineEdit" name="fileLineEdit">

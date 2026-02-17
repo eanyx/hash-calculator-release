@@ -149,7 +149,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Hash Calculator v 1.0  - may 2024 - By eanyx (olivier.michel.92@gmail.com)", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Hash Calculator v 1.0  - may 2024 - By eanyx (eanyx123@gmail.com)", nullptr));
         filePushButton->setText(QCoreApplication::translate("MainWindow", "Choose a file to hash", nullptr));
         hashPushButton->setText(QCoreApplication::translate("MainWindow", "Compute hash", nullptr));
         rmd5RadioButton->setText(QCoreApplication::translate("MainWindow", "MD5", nullptr));

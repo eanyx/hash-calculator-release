@@ -6,8 +6,8 @@
 #include <QProgressBar>
 #include <QtMath>
 
-/* Olivier Michel - 9 may 2023 - change to support full file name on Linux and Windows
- * Olivier MICHEL - 7 sept 2024 - Remove computation on empty file
+/* eanyx - 9 may 2023 - change to support full file name on Linux and Windows
+ * eanyx - 7 sept 2024 - Remove computation on empty file
  */
 
 MainWindow::MainWindow(QWidget *parent) :
