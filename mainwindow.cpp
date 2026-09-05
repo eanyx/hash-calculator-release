@@ -8,7 +8,8 @@
 
 /* eanyx - 9 may 2023 - change to support full file name on Linux and Windows
  * eanyx - 7 sept 2024 - Remove computation on empty file
- */
+* eanyx - 5 sept 2026 - Add keccak and blake2b
+*/
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -156,7 +157,6 @@ void MainWindow::on_SHA3_512RadioButton_clicked()
 {
     algo = QCryptographicHash::Sha3_512;
 }
-
 
 void MainWindow::on_comparePushButton_clicked()
 {
