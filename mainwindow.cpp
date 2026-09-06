@@ -9,6 +9,7 @@
 /* eanyx - 9 may 2023 - change to support full file name on Linux and Windows
  * eanyx - 7 sept 2024 - Remove computation on empty file
 * eanyx - 5 sept 2026 - Add keccak and blake2b
+* eanyx - 6  sept 2026 - Add hmac, gpg signature 
 */
 
 MainWindow::MainWindow(QWidget *parent) :
