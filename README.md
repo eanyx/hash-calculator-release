@@ -7,6 +7,9 @@ V 1.0 - First release - 25 may 2024
 Quick hash calculator with gui written in C++/Qt5
 
 - Support MD5, SHA-1, SHA-2 and SHA-3 algorithms.
+- Support Keccak and black2 algorithms.
+- Support HMAC
+- Support GPG signature
 - Support Linux, Windows and Mac OS X.
 - Support 32 and 64 bits architectures.
 - Compute hash of file up to 64 GB (need ram)
