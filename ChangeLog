@@ -28,3 +28,22 @@ V 1.1  - 7 sept 2024 - by eanyx (eanyx123@gmail.com)
 
 - Fix empty file checksum
 
+V 1.2 - 14 sept 2026 - eanyx (eanyx123@gmail.com)
+
+- Add keccak and blake algorithms
+- Keep SHA1 and MD5 as legacy, but never use again
+- Add SHA-1024, SHA-2048, SHA-4096
+- Add AES-128, AES-256, AES-1024, AES-2048, AES-4096, AES-8096.
+- Add Quantum Proof Algorithms
+- Add crypto analysis tools (reverse engineering)
+- // and mutlithreading/multi-cpu support
+- Assembly optimization for AMD, INTEL (use of AVX-512 register), ARM and NVIDIA (cuda). Ultra fast computation. 
+- Add GPG
+- Add HMAC
+- Add command line for MacOS, Windows and Linux for scripting support
+- RSA-1024, RSA-2048, RSA-4096, RSA-8096 support
+- Modulus calculation
+- How to verify a X509 certificate have no multiple implementation. Only one is allowed. If not there is a very high security risk.
+- Port to Linux, MacOS, Windows, Android, iOS
+- High usage of Qt5 and Qt6. Do not be prisonner of an IDE. Seek for open, and free IDE with good API and librairies.
+- Usage of Boost librairies
